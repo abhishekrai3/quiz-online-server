@@ -20,7 +20,7 @@ import static org.springframework.http.HttpStatus.CREATED;
  * @author Simpson Alfred
  */
 
-@CrossOrigin("http://localhost:5173")
+@CrossOrigin("https://quiz-front-end-omega.vercel.app/quiz-stepper")
 @RestController
 @RequestMapping("/api/quizzes")
 @RequiredArgsConstructor
